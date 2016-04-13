@@ -1,0 +1,159 @@
+
+* {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #2c3037;
+  color: #fff;
+  outline: none;
+}
+html,body,#app{
+  height: 100%;
+}
+
+a,a:hover,a:active,a:focus{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+input{
+    font-size: 20px !important;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+input , select{
+  outline: none;
+  -webkit-appearance: none;
+  border-style: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  line-height: 30px;
+  }
+
+#app{
+  overflow-y: scroll;
+  span{
+    color: #00a460!important;
+  }
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.text-center{
+  text-align: center
+}
+.contentList{
+  background-color: #2f3c4d;
+  display: inline-block;
+  border-radius: 20px;
+  border: 5px dashed #2e527e;
+  padding: 25px;
+  border-collapse: collapse;
+}
+.contentList th{
+  padding: 10px 5px;
+  color: #fff
+}
+.searchbtn{
+  margin-left: 20px;
+  padding: 3px 10px;
+  background-color: #b86918;
+  border-radius: 5px;
+}
+.searchbtn:hover{
+  background-color: rgba(184,105,24,0.8)
+}
+.delbtn:hover{
+  color: red;
+}
+.savebtn:hover{
+  color: #00a460;
+}
+
+.delbtn, .savebtn ,.searchbtn{
+  cursor: pointer;
+}
+.addbtnWrapper,.addWrapper{
+  margin: 20px 0;
+}
+
+.tableCell {
+  min-width: 50px;
+  max-width: 300px;
+  border: 1px solid #c53b35;
+  word-break: break-all;
+  text-align: center;
+  padding: 10px 5px;
+}
+.mainTitle{
+  font-size: 50px;
+  color: rgb(159, 0, 255);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subtitle{
+  color: #fb8cce;
+  font-size: 30px;
+}
+
+.introduceTitle{
+  color: #5fb6c5;
+  text-align: center;
+  font-size: 30px;
+}
+.departTree{
+  width: 500px;
+  padding: 25px;
+  text-align: left;
+  margin-top: -25px;
+  }
+.departTree ul ul{
+  margin-left: 30px;
+}
+.departTree li{
+  margin-bottom: 10px
+}
+
+
+.treeIcon{
+  font-size: 28px;
+    display: inline-block;
+    width: 25px;
+}
+
+.slider{
+  background-color: #2c3037;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  width: 700px;
+  border-left: 1px solid #e3e7ea;
+  z-index: 900;
+  transition: width 0.3s cubic-bezier(0.69, 0.05, 0.53, 1.03);
+  overflow: visible;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+}
+
+.inner-slider{
+  padding: 20px;
+}
+
+.addDeptWrapper{
+  margin-bottom: 30px;
+}
