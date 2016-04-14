@@ -1,0 +1,16 @@
+
+
+//下方有短横线的大块标题 color表示下方短横线的颜色
+@mixin underline($color){
+  position: absolute;
+  width: 100px;
+  height:10px;
+  background-color: $color;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.underline-blue{
+  @include underline($blue-base)
+}

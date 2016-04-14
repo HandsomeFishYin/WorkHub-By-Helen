@@ -1,0 +1,27 @@
+.body-container{
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  @media(max-width: 1300px){
+    width: 100%;
+  }
+}
+
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
+.carouselTable{
+  height: calc(100vw / 1920 *718);
+  display: table;
+}
+.globalTableCell{
+  display: table-cell;
+  vertical-align: middle;
+}
