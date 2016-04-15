@@ -10,21 +10,26 @@ $blue-base:#4896e9;
 $depart-line-color:#dedede;
 $gray-light:#cccccc;
 $text-gray:#555555;
+$copyright-bg-color:#204266;
 
 $border-radius-base:4px;
 
 $btn-radius-base:$border-radius-base;
+$btn-radius-large:10px;
 
 $fontsize-small:14px;
 $fontsize-base:16px;
 $fontsize-title-base:32px;
 $fontsize-middle:24px;
 $fontsize-footer-head:20px;
-
+$fontsize-large:40px;
 $fontsize-huge:50px;
+$fontsize-orange-title:36px;
+$fontsize-large-num:110px;
 // z-index
 $z-index-base:90;
 $z-index-small:9;
 $z-index-large:900;
 
-$font-family:"Open Sans", Seravek, "Segoe UI", Meiryo, "メイリオ", "Hiragino Sans", "Yu Gothic UI", "MS Gothic", "sans-serif" //默认字体样式
+$font-family:'Open Sans', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif; //默认字体样式
+

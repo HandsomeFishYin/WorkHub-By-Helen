@@ -14,3 +14,14 @@
 .underline-blue{
   @include underline($blue-base)
 }
+
+
+@mixin price-box-shadow($color,$fontsize){
+  font-size: $fontsize;
+  color: $color;
+  text-shadow: 2px 2px 0px #dfd2c5;
+  font-family: "Roboto-Black";
+}
+
+
+

@@ -31,6 +31,7 @@
   position: relative;
   font-size: $fontsize-title-base;
   text-align: center;
+  font-family: "Hiragino Kaku Gothic Pro W3";
   margin: {
     top:50px;
     bottom: 90px;
@@ -127,6 +128,11 @@
   }
 }
 
+.footer-section-wrapper{
+  background-color: $light-base;
+}
+
+
 .footer-section{
   padding:65px 50px;
   .footerItem{
@@ -218,3 +224,13 @@
 }
 
 
+.copyrightSection{
+  color: $light-base;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: $copyright-bg-color;
+  p{
+    margin-top: 5px;
+  }
+}
