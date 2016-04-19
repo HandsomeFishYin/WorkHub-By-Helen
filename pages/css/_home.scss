@@ -18,6 +18,10 @@
       text-align: center;
       margin-right: 20px;
       border-radius: $border-radius-base;
+      transition: all .3s;
+      a{
+        color: $light-base;
+      };
       cursor: pointer;
       &:hover,&.active{
         background-color: rgba(0,0,0,0.2);

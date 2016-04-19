@@ -1,0 +1,110 @@
+.tour-menu{
+  width: 100%;
+  display: table;
+  border-left:1px solid $orange-red;
+  .tour-item{
+    display: table-cell;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+    border-right:1px solid $orange-red;
+    width: 16.6%;
+  }
+}
+
+.tour-section{
+  border-bottom: 1px solid $light-base;
+  background-color: $text-gray;
+  color: $light-base;
+  padding: 100px 0;
+  &.last{
+    border-bottom: none;
+  }
+  .left{
+    //padding-right: 70px;
+    width:50%;
+    float: left;
+    .title{
+      font-size: 48px;
+      position: relative;
+      &:before{
+        content: "";
+        width: 40px;
+        height: 4px;
+        background-color: $light-base;
+        position: absolute;
+        bottom:0;
+      }
+    }
+  }
+
+  .tour-section-list{
+    margin-top: 15px;
+    li{
+      text-indent: 35px;
+      position: relative;
+      margin-bottom: 16px;
+      &:before{
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color:$gray-light ;
+        position: absolute;
+        left:0;
+      }
+      .head{
+        font-size: 18px;
+      }
+      .content{
+        font-size: 14px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .right{
+    width: 50%;
+    float: left;
+    .img-wrapper{
+      width: 720px;
+      height: 555px;
+      background-color: $light-base;
+      margin-top: 20px;
+    }
+  }
+
+}
+
+.tour-bottom-slide{
+  color: $light-base;
+  font-size: 24px;
+  padding:85px 0;
+  background-image:url("../images/tour-gray-slide.png") ;
+  background-size: cover;
+  .half-box{
+    text-align: center;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    &:first-child{
+      padding: 25px 0;
+      border-right: 2px solid $light-base;
+    }
+    &:last-child{
+      padding:25px 50px;
+    }
+    .orange-btn{
+      font-weight: bold;
+      background-color: $orange-btn-color;
+      border-radius:$btn-radius-base ;
+      display: inline-block;
+      width: 100%;
+      padding:13px 0;
+      color: $light-base;
+      transition: all .3s;
+      &:hover{
+        background-color:rgba($orange-btn-color,0.8) ;
+      }
+    }
+  }
+}

@@ -1,52 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eebdc7f-2926-462b-9b8e-9f9e11f33686" name="默认的" comment="添加样式和pages">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Hiragino-Kaku-Gothic-Pro-W3.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Hiragino-Kaku-Gothic-Pro-W6.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-ExtraBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-ExtraBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-Semibold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/OpenSans-SemiboldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-Black-2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-Black-3.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-BlackItalic-2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-BlackItalic-3.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Roboto-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/Yu-Gothic-Medium.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-heavy.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/mgenplus-1pp-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/bg-green-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/icon-check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/icon-ent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/icon-pro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/price-coming-soon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/top-blue-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_fontface.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_price.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/enterprise.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/price.html" />
+    <list default="true" id="2eebdc7f-2926-462b-9b8e-9f9e11f33686" name="默认的" comment="price page add">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-AWS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-SAFE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-SSL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/top-black-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/tour-gray-slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_enterprise.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_tour.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tour.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_commom.scss" afterPath="$PROJECT_DIR$/pages/css/_commom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_home.scss" afterPath="$PROJECT_DIR$/pages/css/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_mixins.scss" afterPath="$PROJECT_DIR$/pages/css/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_price.scss" afterPath="$PROJECT_DIR$/pages/css/_price.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_variables.scss" afterPath="$PROJECT_DIR$/pages/css/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css" afterPath="$PROJECT_DIR$/pages/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css.map" afterPath="$PROJECT_DIR$/pages/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.scss" afterPath="$PROJECT_DIR$/pages/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/enterprise.html" afterPath="$PROJECT_DIR$/pages/enterprise.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/price.html" afterPath="$PROJECT_DIR$/pages/price.html" />
     </list>
     <ignored path="Webpack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +50,8 @@
       <file leaf-file-name="price.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/price.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="6" selection-end-column="49" />
+            <state vertical-scroll-proportion="-10.75">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -79,32 +59,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_price.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_price.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.571428">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.46986088">
+              <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enterprise.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enterprise.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18627451">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="18" column="50" selection-start-line="13" selection-start-column="12" selection-end-line="18" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_fontface.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/_fontface.scss">
+      <file leaf-file-name="_enterprise.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/css/_enterprise.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.785715">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tour.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/tour.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.821428">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tour.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/css/_tour.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.142858">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +125,8 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -122,8 +135,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -132,28 +145,8 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="23" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.892858">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_commom.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/_commom.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.821428">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="12" />
+            <state vertical-scroll-proportion="-9.5">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -211,16 +204,19 @@
         <option value="$PROJECT_DIR$/pages/css/_reset.scss" />
         <option value="$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap-theme.css" />
         <option value="$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/pages/css/main.scss" />
         <option value="$PROJECT_DIR$/pages/css/_fontface.scss" />
         <option value="$PROJECT_DIR$/pages/css/_mixins.scss" />
         <option value="$PROJECT_DIR$/pages/css/_commom.scss" />
-        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/pages/css/_enterprise.scss" />
+        <option value="$PROJECT_DIR$/pages/css/main.scss" />
         <option value="$PROJECT_DIR$/pages/css/_variables.scss" />
+        <option value="$PROJECT_DIR$/pages/css/_tour.scss" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/pages/css/_home.scss" />
-        <option value="$PROJECT_DIR$/pages/price.html" />
-        <option value="$PROJECT_DIR$/pages/css/_price.scss" />
         <option value="$PROJECT_DIR$/pages/enterprise.html" />
+        <option value="$PROJECT_DIR$/pages/price.html" />
+        <option value="$PROJECT_DIR$/pages/tour.html" />
+        <option value="$PROJECT_DIR$/pages/css/_price.scss" />
       </list>
     </option>
   </component>
@@ -268,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,9 +297,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Webpack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkHub-By-Helen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -318,6 +332,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Workhub\WorkHub-By-Helen\pages\images" />
+      <recent name="E:\Workhub\WorkHub-By-Helen\pages" />
       <recent name="E:\Workhub\WorkHub-By-Helen\pages\font" />
       <recent name="E:\Workhub\WorkHub-By-Helen\pages\lib" />
       <recent name="E:\我的切图\资料\Webpack" />
@@ -396,7 +411,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460632966838</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="price page add">
+      <created>1460707464329</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460707464329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -414,12 +435,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21022129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25893825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23726977" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2751896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23726977" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,6 +452,7 @@
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25893825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,7 +497,8 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="默认的" />
     <MESSAGE value="添加样式和pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加样式和pages" />
+    <MESSAGE value="price page add" />
+    <option name="LAST_COMMIT_MESSAGE" value="price page add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,27 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/UserItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -748,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6491" column="23" selection-start-line="6491" selection-start-column="23" selection-end-line="6491" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,25 +774,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_fontface.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.785715">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.892858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
@@ -801,40 +791,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_commom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.821428">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/_enterprise.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/_tour.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="-9.5">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.142858">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -842,20 +847,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142">
+          <caret line="18" column="50" selection-start-line="13" selection-start-column="12" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tour.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/price.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="6" selection-end-column="49" />
+        <state vertical-scroll-proportion="-10.75">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
+    <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18627451">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.46986088">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
           <folding />
         </state>
       </provider>

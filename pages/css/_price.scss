@@ -2,6 +2,7 @@
   padding: 35px 0;
   background-color: $light-base;
   box-shadow: 0 0 9px rgba(0,0,0,0.2);
+  position: relative;
   .menuBody{
     display: inline-block;
     float: right;
@@ -13,6 +14,10 @@
       margin-right: 20px;
       border-radius: 4px;
       cursor: pointer;
+      transition: all .3s;
+      a{
+        color: $gray-dark;
+      }
       &:hover,&.active{
         background-color: rgba(0,0,0,0.2);
       }
@@ -25,6 +30,18 @@
   color: $light-base;
   text-align: center;
   padding:55px 0;
+  &.Enterprise{
+    background-color: $gray-lighter;
+    .title{
+      color: $enterprise-gray;
+      &:before{
+        background-color: $enterprise-gray;
+      }
+    }
+    .subtitle{
+      color: $enterprise-gray;
+    }
+  }
   .title{
     font-size: $fontsize-large;
     font-family: "OpenSans-ExtraBold";
