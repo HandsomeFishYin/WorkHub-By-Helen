@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eebdc7f-2926-462b-9b8e-9f9e11f33686" name="默认的" comment="price page add">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/enterprise-st-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-AWS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-SAFE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/img-SSL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/top-black-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/tour-gray-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_enterprise.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_tour.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tour.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_home.scss" afterPath="$PROJECT_DIR$/pages/css/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_price.scss" afterPath="$PROJECT_DIR$/pages/css/_price.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_variables.scss" afterPath="$PROJECT_DIR$/pages/css/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css" afterPath="$PROJECT_DIR$/pages/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css.map" afterPath="$PROJECT_DIR$/pages/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.scss" afterPath="$PROJECT_DIR$/pages/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/enterprise.html" afterPath="$PROJECT_DIR$/pages/enterprise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/price.html" afterPath="$PROJECT_DIR$/pages/price.html" />
     </list>
     <ignored path="Webpack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +28,7 @@
       <file leaf-file-name="price.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/price.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.75">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -59,22 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_price.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_price.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46986088">
+            <state vertical-scroll-proportion="-14.928572">
               <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enterprise.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="enterprise.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.857142">
-              <caret line="18" column="50" selection-start-line="13" selection-start-column="12" selection-end-line="18" selection-end-column="50" />
-              <folding />
+            <state vertical-scroll-proportion="0.5224111">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +72,7 @@
       <file leaf-file-name="tour.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tour.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.821428">
+            <state vertical-scroll-proportion="0.0">
               <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding />
             </state>
@@ -112,7 +92,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -145,7 +125,7 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
@@ -213,10 +193,10 @@
         <option value="$PROJECT_DIR$/pages/css/_tour.scss" />
         <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/pages/css/_home.scss" />
-        <option value="$PROJECT_DIR$/pages/enterprise.html" />
         <option value="$PROJECT_DIR$/pages/price.html" />
         <option value="$PROJECT_DIR$/pages/tour.html" />
         <option value="$PROJECT_DIR$/pages/css/_price.scss" />
+        <option value="$PROJECT_DIR$/pages/enterprise.html" />
       </list>
     </option>
   </component>
@@ -265,6 +245,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,7 +298,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +410,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21022129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -830,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
@@ -838,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -847,17 +827,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.857142">
-          <caret line="18" column="50" selection-start-line="13" selection-start-column="12" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/tour.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding />
         </state>
@@ -865,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/price.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -875,9 +847,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46986088">
+        <state vertical-scroll-proportion="-14.928572">
           <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5224111">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
