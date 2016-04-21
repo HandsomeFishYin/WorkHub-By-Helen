@@ -175,7 +175,7 @@
       }
       .payInfo{
         color: $text-gray;
-        margin-top: 10px;
+        //margin-top: 10px;
         margin-bottom: -10px;
       }
       .price-large-num-red{
@@ -235,16 +235,15 @@
       }
     }
     .orange-btn{
-      display: inline-block;
-      color: $light-base;
-      font-size: $fontsize-middle;
-      width: 100%;
-      text-align: center;
-      line-height: 65px;
-      background-color: $orange-base;
-      border-radius: $btn-radius-large;
-      margin-top: 20px;
-      box-shadow: 0 4px 0 #e0a360;
+      @include price-big-btn($orange-base,#e0a360,$light-base)
+    }
+    .red-btn{
+      @include price-big-btn($orange-red,#cc5b49,$light-base);
+      margin-top: 13px;
+    }
+    .blue-btn{
+      @include price-big-btn(#4479b1,#4479b1,$blue-base);
+      margin-top: 140px;
     }
   }
 }

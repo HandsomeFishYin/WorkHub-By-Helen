@@ -101,6 +101,7 @@
   &.blue{
     background: $blue-base right center no-repeat;
     background-image: url(../images/footer-blue.png);
+    background-size: contain;
   }
   .img-logo{
 
@@ -129,6 +130,46 @@
   .underline{
     text-decoration: underline;
     cursor: pointer;
+  }
+  &.tour{
+    .content{
+      font-size: 18px;
+      letter-spacing: 5px;
+    }
+  }
+  .tour-login-wrapper{
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+    background-color: $light-base;
+    border-radius: $btn-radius-large;
+    padding:25px 30px;
+    box-sizing: border-box;
+    .login-title{
+      font-size:$fontsize-middle ;
+      color:$blue-base;
+      margin-right: 15px;
+    }
+    .login-input{
+      line-height: 50px;
+      border:4px solid $blue-base;
+      border-radius: 8px;
+      padding:0 15px;
+      width:calc(100% - 605px);
+    }
+    .login-submit-btn{
+      font-size: $fontsize-middle;
+      color: $light-base;
+      margin-left: 20px;
+      background-color: $blue-base;
+      display: inline-block;
+      border-radius: $border-radius-base;
+      line-height: 58px;
+      padding:0 20px;
+      &:hover{
+        background-color: rgba($blue-base,0.8);
+      }
+    }
   }
 }
 

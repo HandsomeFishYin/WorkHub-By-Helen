@@ -24,4 +24,17 @@
 }
 
 
+@mixin price-big-btn($bg-color,$shadow-color,$text-color){
+    display: inline-block;
+    color: $text-color;
+    font-size: $fontsize-middle;
+    width: 100%;
+    text-align: center;
+    line-height: 65px;
+    background-color: $bg-color;
+    border-radius: $btn-radius-large;
+    margin-top: 30px;
+    box-shadow: 0 4px 0 $shadow-color;
+}
+
 

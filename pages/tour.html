@@ -27,21 +27,24 @@
     <p class="subtitle">ツアー</p>
 </div>
 
-<div class="body-container">
-    <div class="tour-menu">
-        <div class="tour-item">チャット</div>
-        <div class="tour-item">スケジュール</div>
-        <div class="tour-item">タスク</div>
-        <div class="tour-item">ワークフロー</div>
-        <div class="tour-item">セキュリティー</div>
-        <div class="tour-item">ビデオチャット</div>
+<div class="tour-menu-wrapper">
+    <div class="body-container">
+        <div class="tour-menu">
+            <div class="tour-item active">チャット</div>
+            <div class="tour-item">スケジュール</div>
+            <div class="tour-item">タスク</div>
+            <div class="tour-item">ワークフロー</div>
+            <div class="tour-item">セキュリティー</div>
+            <div class="tour-item">ビデオチャット</div>
+        </div>
     </div>
 </div>
 
-<div class="tour-section">
+
+<div class="tour-section first">
     <div class="body-container clearfix">
         <div class="left">
-            <p class="title">チャット</p>
+            <p class="title"><img src="./images/chat-icon.png" alt="chat">チャット</p>
             <ul class="tour-section-list">
                 <li>
                     <span class="head">既読確認機能</span>
@@ -86,7 +89,9 @@
             </ul>
         </div>
         <div class="right">
-            <div class="img-wrapper"></div>
+            <div class="img-wrapper">
+                <img src="./images/tour-st-1.png" alt="チャット">
+            </div>
         </div>
     </div>
 </div>
@@ -94,7 +99,7 @@
 <div class="tour-section">
     <div class="body-container clearfix">
         <div class="left">
-            <p class="title">スケジュール</p>
+            <p class="title"><img src="./images/schedule-icon.png" alt="schedule">スケジュール</p>
             <ul class="tour-section-list">
                 <li>
                     <span class="head">候補日設定機能</span>
@@ -134,7 +139,9 @@
             </ul>
         </div>
         <div class="right">
-            <div class="img-wrapper"></div>
+            <div class="img-wrapper">
+                <img src="./images/tour-st-2.png" alt="スケジュール">
+            </div>
         </div>
     </div>
 </div>
@@ -142,7 +149,7 @@
 <div class="tour-section">
     <div class="body-container clearfix">
         <div class="left">
-            <p class="title">タスク</p>
+            <p class="title"><img src="./images/task-icon.png" alt="schedule">タスク</p>
             <ul class="tour-section-list">
                 <li>
                     <span class="head">プロジェクト単位のタスク管理機能</span>
@@ -179,7 +186,9 @@
             </ul>
         </div>
         <div class="right">
-            <div class="img-wrapper"></div>
+            <div class="img-wrapper">
+                <img src="./images/tour-st-3.png" alt="タスク">
+            </div>
         </div>
     </div>
 </div>
@@ -187,7 +196,7 @@
 <div class="tour-section">
     <div class="body-container clearfix">
         <div class="left">
-            <p class="title">ワークフロー</p>
+            <p class="title"><img src="./images/workflow-icon.png" alt="schedule">ワークフロー</p>
             <ul class="tour-section-list">
                 <li>
                     <span class="head">WorkHub上で休暇申請や費用申請送信機能</span>
@@ -228,7 +237,9 @@
             </ul>
         </div>
         <div class="right">
-            <div class="img-wrapper"></div>
+            <div class="img-wrapper">
+                <img src="./images/tour-st-4.png" alt="ワークフロー">
+            </div>
         </div>
     </div>
 </div>
@@ -237,7 +248,7 @@
 <div class="tour-section last">
     <div class="body-container clearfix">
         <div class="left">
-            <p class="title">セキュリティー</p>
+            <p class="title"><img src="./images/clock-icon.png" alt="schedule">セキュリティー</p>
             <ul class="tour-section-list">
                 <li>
                     <span class="head">管理者からユーザー削除でアクセス権限を停止</span>
@@ -273,21 +284,42 @@
             </ul>
         </div>
         <div class="right">
-            <div class="img-wrapper"></div>
+            <div class="img-wrapper">
+                <img src="./images/tour-st-5.png" alt="セキュリティー">
+            </div>
         </div>
     </div>
 </div>
 
-<div class="tour-bottom-slide">
-    <div class="body-container clearfix">
-        <div class="half-box">
-            <p>チームが最高のパフォーマンスを発揮できるための</p>
-            <p>コミュニケーションツールを使ってみませんか？</p>
-        </div>
-        <div class="half-box">
-            <a href="javascript:void(0)" class="orange-btn">チームをつくる</a>
+<!--<div class="tour-bottom-slide">-->
+    <!--<div class="body-container clearfix">-->
+        <!--<div class="half-box">-->
+            <!--<p>チームが最高のパフォーマンスを発揮できるための</p>-->
+            <!--<p>コミュニケーションツールを使ってみませんか？</p>-->
+        <!--</div>-->
+        <!--<div class="half-box">-->
+            <!--<a href="javascript:void(0)" class="orange-btn">チームをつくる</a>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="centerBelt blue tour">
+    <img src="./images/foot-white-logo.png" alt="logo">
+    <div class="content">
+        <p>チームが最高のパフォーマンスを発揮できるための</p>
+        <p>コミュニケーションツールを使ってみませんか？</p>
+    </div>
+
+    <div class="text-center body-container">
+        <div class="tour-login-wrapper">
+            <span class="login-title">まずは無料招待版を登録しよう</span>
+            <input type="text" class="login-input" placeholder="例）mail@example.com" />
+            <a href="javascript:void(0)" class="login-submit-btn">招待版を使う</a>
         </div>
     </div>
+
+
+    <p class="bottom-text">各種プランは、<span class="underline">料金プラン</span>からご確認ください。</p>
 </div>
 
 <div class="footer-section body-container clearfix">
