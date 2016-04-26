@@ -22,7 +22,19 @@
         background-color: rgba(0,0,0,0.2);
       }
     }
+    #menu-contact{
+      background-color: $orange-red;
+      color: $light-base;
+      padding:3px 10px;
+      >a{
+        color: $light-base;
+      }
+      &:hover{
+        background-color: rgba($orange-red,0.8);
+      }
+    }
   }
+
 }
 
 .priceMiddleTitle{
@@ -30,6 +42,10 @@
   color: $light-base;
   text-align: center;
   padding:55px 0;
+  @media (max-width: 640px) {
+    margin-top: 68px;
+    padding:20px 0;
+  }
   &.Enterprise{
     background-color: $gray-lighter;
     .title{
@@ -58,10 +74,16 @@
       background-color: $light-base;
       margin-left: -50px;
     }
+    @media (max-width: 640px) {
+      font-size: 30px;
+    }
   }
   .subtitle{
     font-family: "Hiragino Kaku Gothic Pro W6";
     font-size: $fontsize-footer-head;
+    @media (max-width: 640px) {
+      font-size: 18px;
+    }
   }
 }
 

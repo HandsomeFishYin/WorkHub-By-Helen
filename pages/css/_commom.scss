@@ -37,3 +37,14 @@
 .inlineBlock{
   display: inline-block;
 }
+
+.pc-show{
+  @media(max-width: 640px){
+    display: none !important;
+  }
+}
+.mobile-show{
+  @media(min-width: 640px){
+    display: none !important;
+  }
+}

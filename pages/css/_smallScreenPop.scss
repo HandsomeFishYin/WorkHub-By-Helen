@@ -1,0 +1,45 @@
+//小屏的菜单栏
+.smallScreenNav{
+  height: 100%;
+  position: absolute;
+  top:0;
+  background-color: $light-base;
+  width: 100%;
+  z-index: 1040;
+  .header{
+    padding:15px 25px;
+  }
+  .icon-form_close{
+    float: right;
+    font-size: 24px;
+    color: $blue-base;
+    cursor: pointer;
+  }
+  .smallScreenMenuList{
+    padding:0 25px;
+    li{
+      border-bottom: 1px solid #eeeeee;
+    }
+    li>a{
+      line-height: 60px;
+      color: $blue-base;
+      font-weight: bold;
+      font-size: $fontsize-footer-head;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .smallScreenContact{
+    border-bottom: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: $blue-base;
+    font-size:18px ;
+    border-radius: $border-radius-base;
+    margin-top: 25px;
+    a{
+      color: $light-base !important;
+    }
+  }
+}

@@ -27,3 +27,28 @@
   src: url('../font/Roboto-Black.ttf'); /* IE9+ */
   src: url('../font/Roboto-Black.ttf') format('embedded-opentype'), /* IE6-IE8 */ url('../font/Roboto-Black.ttf') format('woff'), /* chromeÃ£â‚¬Âfirefox */ url('../font/Roboto-Black.ttf') format('truetype'); /* chromeÃ£â‚¬ÂfirefoxÃ£â‚¬ÂoperaÃ£â‚¬ÂSafari, Android, iOS 4.2+*/
 }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/icon-font/icomoon.eot'); /* IE9+ */
+  src: url('../font/icon-font/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/icon-font/icomoon.woff') format('woff'), /* chromeÃ£â‚¬Âfirefox */ url('../font/icon-font/icomoon.ttf') format('truetype'), url('../font/icon-font/icomoon.svg') format('svg');; /* chromeÃ£â‚¬ÂfirefoxÃ£â‚¬ÂoperaÃ£â‚¬ÂSafari, Android, iOS 4.2+*/
+  font-weight: normal;
+  font-style: normal;
+}
+//联系我们的字体文件
+@font-face {
+  font-family: 'glyph';
+  src: url('../font/glyph-font/glyph.eot?10335687');
+  src: url('../font/glyph-font/glyph.eot?10335687#iefix') format('embedded-opentype'),
+  url('../font/glyph-font/glyph.woff?10335687') format('woff'),
+  url('../font/glyph-font/glyph.ttf?10335687') format('truetype'),
+  url('../font/glyph-font/glyph.svg?10335687#glyph') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.demo-icon{
+  font-family: "glyph";
+  font-style: normal;
+  font-weight: normal;
+}

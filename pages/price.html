@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WorkHub-price</title>
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="price-gray-body">
 
-<div class="priceTopMenu">
+<!--//小屏菜单 begin-->
+<nav class="navbar navbar-default smallScreenHeader navbar-fixed-top mobile-show">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="threeLine">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+
+                <i class="demo-icon icon-form_close"></i>
+            </button>
+            <span class="smallScreenNavTopLogo">
+                <img src="./images/top-blue-logo.png" style="width:130px">
+            </span>
+        </div>
+    </div>
+</nav>
+
+<div class="smallScreenNav mobile-show" style="display: none">
+    <div class="header">
+        <img src="./images/top-blue-logo.png" alt="logo" width="130px">
+        <i class="demo-icon icon-form_close"></i>
+    </div>
+    <ul class="smallScreenMenuList">
+        <li><a href="tour.html">ツアー</a></li>
+        <li><a href="price.html">価格</a></li>
+        <li><a href="enterprise.html">法人向け</a></li>
+        <li><a href="index.html">ログイン</a></li>
+        <li contact="footer-contact" class="smallScreenContact"><a href="javascript:void(0)">招待版を使う</a></li>
+    </ul>
+</div>
+<!--//小屏菜单 end-->
+
+<div class="priceTopMenu pc-show">
     <div class="body-container clearfix">
-        <img src="./images/top-blue-logo.png" alt="logo" class="top-logo">
+        <a href="index.html"><img src="./images/top-blue-logo.png" alt="logo" class="top-logo"></a>
         <ul class="menuBody pull-right">
-            <li><a href="index.html">ツアー</a></li>
-            <li class="active"><a href="price.html">価格</a></li>
-            <li><a href="tour.html">事例</a></li>
-            <li><a href="enterprise.html">法人向け</a></li>
-            <li><a href="index.html">Blog</a></li>
+            <li><a href="tour.html">ツアー</a></li>
+            <li><a href="price.html">価格</a></li>
+            <li ><a href="enterprise.html">法人向け</a></li>
             <li><a href="index.html">ログイン</a></li>
+            <li id="menu-contact" contact="footer-contact"><a href="javascript:void(0)">招待版を使う</a></li>
         </ul>
     </div>
 </div>
+
 
 <div class="priceMiddleTitle">
     <p class="title">Price</p>
@@ -312,5 +349,42 @@
     <p>Copyright © 2016 WorkHub, Inc. All rights reserved.</p>
 </div>
 
+<!--联系我们-->
+<div class="popMask">
+    <div class="contact-page">
+        <div class="close-btn" id="close-contact">+</div>
+
+        <div class="contact-tag"><i class="demo-icon icon-form_open"></i>お問い合わせ</div>
+
+        <p class="contact-big-title">Contact us</p>
+        <p class="contact-subtitle">お問い合わせ</p>
+
+        <div class="contact-input-group">
+            <p class="title">貴社名</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group">
+            <p class="title">お名前</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group second">
+            <p class="title">メールアドレス</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group second">
+            <p class="title">電話番号 <span class="error-msg">※電話番号の形式が正しくありません。</span></p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group">
+            <p class="title">ご用件（必須）</p>
+            <textarea name="aa" id="" cols="30" rows="10"></textarea>
+        </div>
+        <a href="javascript:void(0)" class="confirm-btn">確認</a>
+    </div>
+</div>
+
+
+<script src="lib/jquery-2.1.1.min.js"></script>
+<script src="js/mian.js"></script>
 </body>
 </html>

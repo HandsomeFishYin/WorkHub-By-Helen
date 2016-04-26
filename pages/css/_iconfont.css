@@ -1,0 +1,121 @@
+/*@font-face {*/
+    /*font-family: 'icomoon';*/
+    /*src:    url('fonts/icomoon.eot?idazfp');*/
+    /*src:    url('fonts/icomoon.eot?idazfp#iefix') format('embedded-opentype'),*/
+        /*url('fonts/icomoon.ttf?idazfp') format('truetype'),*/
+        /*url('fonts/icomoon.woff?idazfp') format('woff'),*/
+        /*url('fonts/icomoon.svg?idazfp#icomoon') format('svg');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'iconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tour-chat01:before {
+    content: "\e900";
+}
+.icon-tour-chat02:before {
+    content: "\e901";
+}
+.icon-tour-chat03:before {
+    content: "\e902";
+}
+.icon-tour-chat04:before {
+    content: "\e903";
+}
+.icon-tour-chat05:before {
+    content: "\e904";
+}
+.icon-tour-device01:before {
+    content: "\e905";
+}
+.icon-tour-device02:before {
+    content: "\e906";
+}
+.icon-tour-device03:before {
+    content: "\e907";
+}
+.icon-tour-flow01:before {
+    content: "\e908";
+}
+.icon-tour-flow02:before {
+    content: "\e909";
+}
+.icon-tour-flow03:before {
+    content: "\e90a";
+}
+.icon-tour-schedule01:before {
+    content: "\e90b";
+}
+.icon-tour-schedule02:before {
+    content: "\e90c";
+}
+.icon-tour-schedule03:before {
+    content: "\e90d";
+}
+.icon-tour-schedule04:before {
+    content: "\e90e";
+}
+.icon-tour-secutiry01 .path1:before {
+    content: "\e90f";
+    color: #4896e9;
+}
+.icon-tour-secutiry01 .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-tour-secutiry01 .path3:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: #4896e9;
+}
+.icon-tour-secutiry01 .path4:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-tour-secutiry01 .path5:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: #4896e9;
+}
+.icon-tour-secutiry01 .path6:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-tour-secutiry01 .path7:before {
+    content: "\e915";
+    margin-left: -1em;
+    color: #4896e9;
+}
+.icon-tour-secutiry02:before {
+    content: "\e916";
+}
+.icon-tour-secutiry03:before {
+    content: "\e917";
+}
+.icon-tour-task01:before {
+    content: "\e918";
+}
+.icon-tour-task02:before {
+    content: "\e919";
+}
+.icon-tour-task03:before {
+    content: "\e91a";
+}
+

@@ -4,37 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WorkHub-enterprise</title>
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-<div class="priceTopMenu">
+<!--//小屏菜单 begin-->
+<nav class="navbar navbar-default smallScreenHeader navbar-fixed-top mobile-show">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="threeLine">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+
+                <i class="demo-icon icon-form_close"></i>
+            </button>
+            <span class="smallScreenNavTopLogo">
+                <img src="./images/top-blue-logo.png" style="width:130px">
+            </span>
+        </div>
+    </div>
+</nav>
+
+<div class="smallScreenNav mobile-show" style="display: none">
+    <div class="header">
+        <img src="./images/top-blue-logo.png" alt="logo" width="130px">
+        <i class="demo-icon icon-form_close"></i>
+    </div>
+    <ul class="smallScreenMenuList">
+        <li><a href="tour.html">ツアー</a></li>
+        <li><a href="price.html">価格</a></li>
+        <li><a href="enterprise.html">法人向け</a></li>
+        <li><a href="index.html">ログイン</a></li>
+        <li contact="footer-contact" class="smallScreenContact"><a href="javascript:void(0)">招待版を使う</a></li>
+    </ul>
+</div>
+<!--//小屏菜单 end-->
+
+<div class="priceTopMenu pc-show">
     <div class="body-container clearfix">
-        <img src="./images/top-blue-logo.png" alt="logo" class="top-logo" width="156">
+        <a href="index.html"><img src="./images/top-blue-logo.png" alt="logo" class="top-logo"></a>
         <ul class="menuBody pull-right">
-            <li><a href="index.html">ツアー</a></li>
+            <li><a href="tour.html">ツアー</a></li>
             <li><a href="price.html">価格</a></li>
-            <li><a href="tour.html">事例</a></li>
-            <li class="active"><a href="enterprise.html">法人向け</a></li>
-            <li><a href="index.html">Blog</a></li>
+            <li ><a href="enterprise.html">法人向け</a></li>
             <li><a href="index.html">ログイン</a></li>
+            <li id="menu-contact" contact="footer-contact">招待版を使う</li>
         </ul>
     </div>
 </div>
+
+
 <div class="priceMiddleTitle">
     <p class="title">Enterprise</p>
     <p class="subtitle">法人向け</p>
 </div>
 
 
-<div class="body-container">
+<div class="body-container ">
     <div class="enterprise-detail">
         <div class="head">
             <div class="logo-img">
                 <img src="./images/top-black-logo.png" alt="logo" >
             </div>
         </div>
-        <p class="title">私たちはお客様のデータの安全を何よりも重視しています。</p>
-        <div class="iconTable">
+        <p class="title pc-show">私たちはお客様のデータの安全を何よりも重視しています。</p>
+        <ul class="title-ss">
+            <li>私たちはお客様のデータの</li>
+            <li>安全を何よりも重視しています。</li>
+        </ul>
+        <div class="iconTable pc-show">
             <div class="iconItem">
                 <img src="./images/img-AWS.png" alt="aws">
                 <ul class="detailList">
@@ -58,6 +100,51 @@
                 </ul>
             </div>
         </div>
+
+
+        <div id="carousel-example-generic" class="carousel slide mobile-show" data-ride="carousel">
+
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carousel-enterprise" role="listbox">
+                <div class="item active text-center">
+                    <img src="./images/img-AWS.png" alt="">
+                    <div class="">
+                        <ul>
+                            <li>WorkHubは、安定性抜群のAmazon Web </li>
+                            <li>Service(AWS)のサーバーを利用しています。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <img src="./images/img-SSL.png" alt="">
+                    <div class="">
+                        <ul>
+                            <li>登録から全てのやり取りが</li>
+                            <li>SSLで守られています。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <img src="./images/img-SAFE.png" alt="">
+                    <div class="">
+                        <ul>
+                            <li>全てのデータは暗号化技術を用い、</li>
+                            <li>万全のセキュリティで保護しています。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel-enterprise">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+        </div>
     </div>
 </div>
 
@@ -68,37 +155,52 @@
     <p class="content">ワンストップソリューションでグループウェアはもう不要 です。</p>
 </div>
 
-
 <div class="enterprise-characteristic">
     <div class="body-container">
-        <p class="characteristic-head">
+        <p class="characteristic-head pc-show">
             <span class="inner-characteristic">
                 <img src="./images/top-white-logo.png" alt="logo" width="225">
                 <span>6つの特徴</span>
             </span>
         </p>
-        <ul class="subtitle">
+
+        <div class="characteristic-head-ss">
+            <img src="./images/top-white-logo.png" alt="logo" width="225">
+            <h1>6つの特徴</h1>
+        </div>
+
+        <ul class="subtitle pc-show">
             <li>「仕事用のツールはとにかく使いにくい」、うなづく方も多いはずです。</li>
             <li>仕事用だから使いやすさが重要ではないという「常識」、WorkHubが変えます。</li>
             <li>WorkHubは多忙なビジネスパーソンが日々ストレスフリーで効率的に進められるサービスです。</li>
         </ul>
+
+        <ul class="subtitle mobile-show">
+            <li>「仕事用のツールはとにかく使いにくい」、</li>
+            <li>うなづく方も多いはずです。</li>
+            <li>仕事用だから使いやすさが重要ではないという「常識」</li>
+            <li>WorkHubが変えます。</li>
+            <li>WorkHubは多忙なビジネスパーソンが</li>
+            <li>日々ストレスフリーで効率的に進められるサービスです。</li>
+        </ul>
+
         <div class="chara-group clearfix">
             <div class="chara-item">
                 <div class="img-wrapper">
-                    <img src="./images/chara-st-1.png" alt="コミュニケーションを分散させない">
+                    <img src="./images/chara-st-1.png" alt="コミュニケーションはチャットだけではありません。">
                 </div>
                 <div class="text-wrapper">
-                    <p class="title">コミュニケーションを分散させない</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="title">コミュニケーションはチャットだけではありません。</p>
+                    <p class="body">日程の共有、会議招集、タスクの進捗確認などもコミュニケーションで、そのすべてがWorkHub一本でできます</p>
                 </div>
             </div>
             <div class="chara-item">
                 <div class="img-wrapper">
-                    <img src="./images/chara-st-2.png" alt="コミュニケーションを分散させない">
+                    <img src="./images/chara-st-2.png" alt="コミュニケーションはチャットだけではありません。">
                 </div>
                 <div class="text-wrapper">
-                    <p class="title">いつでもどこでも業務ができる</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="title">いつでもどこでも業務ができる。</p>
+                    <p class="body">業務に必要な機能がすべてアプリでも使えますので、スマホ一台あれば、ちょっとした待ち時間や外出中でも重要な申請の承認や緊急なファイルの確認などを行うことが可能になります</p>
                 </div>
             </div>
             <div class="chara-item">
@@ -107,7 +209,7 @@
                 </div>
                 <div class="text-wrapper">
                     <p class="title">充実した管理機能</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="body">企業の管理者様にも便利な管理機能を用意しております。ユーザーの一括インポート・エクスポート、チャット履歴の一括エクスポート、コンタクト追加禁止などの機能が揃っており、エンドユーザーの管理が楽々</p>
                 </div>
             </div>
             <div class="chara-item">
@@ -116,7 +218,7 @@
                 </div>
                 <div class="text-wrapper">
                     <p class="title">セキュリティー対策</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="body">すべてのデータのやり取りが暗号化されており、セキュリレベルが国内最高水準のAWSのデータセンターを使っています。そして、プライベートのスマホで利用されても情報漏えいしにくい仕組みです</p>
                 </div>
             </div>
             <div class="chara-item">
@@ -125,7 +227,7 @@
                 </div>
                 <div class="text-wrapper">
                     <p class="title">コストダウン</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="body">チャット、グループウェアや社内SNSなど、様々なツールを導入しなくて済むので、運用・管理コストが削減できます。今後新機能を導入しても入り口が一つで、エンドユーザーの学習コストも最小に抑えられます</p>
                 </div>
             </div>
             <div class="chara-item">
@@ -134,7 +236,7 @@
                 </div>
                 <div class="text-wrapper">
                     <p class="title">BCP対策</p>
-                    <p class="body">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    <p class="body">大規模災害時に、ブラウザへのアクセス、あるいはスマホ一台あれば業務が中断する心配はありません。さらに、チャットを通じてメンバーの安否確認もしやすくなります</p>
                 </div>
             </div>
         </div>
@@ -144,10 +246,11 @@
 <div class="body-container">
     <div class="workhub-database-belt clearfix">
         <div class="half-box left">
+            <img src="./images/top-blue-logo.png " alt="logo" style="width: 200px;margin:0 20px;float: left">
             <img src="./images/workhub-database.png" alt="database">
         </div>
         <div class="half-box">
-            <img src="./images/top-blue-logo.png" alt="logo" class="blue-logo">
+            <img src="./images/top-blue-logo.png " alt="logo" class="blue-logo pc-show">
             <div class="content">
                 <span>自社サーバーで運営できるプライベートクラウド版を</span>
                 <br>
@@ -158,6 +261,35 @@
     </div>
 </div>
 
+<div class="green-belt ">
+    <div class="body-container clearfix">
+        <div class="half-box left">
+            <p class="title">
+                紹介資料ダウンロード
+            </p>
+            <p class="content">
+                WorkHubの機能などをまとめた資料です。<br>
+                自由にカスタマイズして、稟議書などにお使いください。
+            </p>
+            <a href="javascript:void(0)" class="detail-btn">紹介資料 ダウンロード申請フォーム</a>
+        </div>
+        <div class="half-box right">
+            <img src="./images/green-note.png" alt="note" class="bg-green-note">
+            <img src="./images/top-blue-logo.png" alt="logo" class="logo">
+            <br>
+            <div class="title-wrapper">
+                <p class="inner-title">
+                    紹介資料
+                </p>
+            </div>
+            <p class="content">
+                次世代チームコラボレーションツールのワークハブを使った業務効率化のためのワークフローをご紹介します。
+                <br>
+                次世代チームコラボレーションツールのワークハブを使った業務効率化のためのワークフローをご紹介します。
+            </p>
+        </div>
+    </div>
+</div>
 
 <div class="centerBelt blue">
     <img src="./images/foot-white-logo.png" alt="logo">
@@ -169,7 +301,7 @@
     <p class="bottom-text">各種プランは、<span class="underline">料金プラン</span>からご確認ください。</p>
 </div>
 
-<div class="footer-section body-container clearfix">
+<div class="footer-section body-container clearfix pc-show">
     <div class="footerItem">
         <div class="head-wrapper">
             <span class="head blue">MENU</span>
@@ -189,7 +321,7 @@
         <ul class="body">
             <li><a href="javascript:void(0)">プライバシーポリシー</a></li>
             <li><a href="javascript:void(0)">会員規約</a></li>
-            <li><a href="javascript:void(0)">お問い合わせ</a></li>
+            <li contact="footer-contact"><a href="javascript:void(0)">招待版を使う</a></li>
             <li><a href="javascript:void(0)">ヘルプ</a></li>
         </ul>
     </div>
@@ -199,7 +331,7 @@
         </div>
         <ul class="body">
             <li><a href="javascript:void(0)">運営会社</a></li>
-            <li><a href="javascript:void(0)">お問い合わせ</a></li>
+            <li contact="footer-contact"><a href="javascript:void(0)">お問い合わせ</a></li>
         </ul>
     </div>
     <div class="footerItem">
@@ -221,16 +353,26 @@
     </div>
 </div>
 
+<div class="mobile-show mobile-footer-section">
+    <p>
+        <a href="javascript:void(0)">プライバシーポリシー</a> /<a href="javascript:void(0)">会員規約</a>  / <a href="javascript:void(0)">お問い合わせ</a>
+        <br>
+        / <a href="javascript:void(0)">ヘルプ</a> /<a href="javascript:void(0)">運営会社</a>  /<a href="javascript:void(0)">招待版を使う</a>
+    </p>
+</div>
+
 <div class="copyrightSection">
     <img src="./images/top-white-logo.png" alt="logo">
     <p>Copyright © 2016 WorkHub, Inc. All rights reserved.</p>
 </div>
 
+
+<!--联系我们-->
 <div class="popMask">
     <div class="contact-page">
         <div class="close-btn" id="close-contact">+</div>
 
-        <div class="contact-tag">お問い合わせ</div>
+        <div class="contact-tag"><i class="demo-icon icon-form_open"></i>お問い合わせ</div>
 
         <p class="contact-big-title">Contact us</p>
         <p class="contact-subtitle">お問い合わせ</p>
@@ -260,6 +402,7 @@
 </div>
 
 <script src="lib/jquery-2.1.1.min.js"></script>
+<script src="lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
 <script src="js/mian.js"></script>
 </body>
 </html>

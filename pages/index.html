@@ -8,22 +8,56 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+<!--//小屏菜单 begin-->
+<nav class="navbar navbar-default smallScreenHeader navbar-fixed-top mobile-show">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="threeLine">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
 
-<div class="body-container">
+                <i class="demo-icon icon-form_close"></i>
+            </button>
+            <span class="smallScreenNavTopLogo">
+                <img src="./images/top-blue-logo.png" style="width:130px">
+            </span>
+        </div>
+    </div>
+</nav>
+
+<div class="smallScreenNav mobile-show" style="display: none">
+    <div class="header">
+        <img src="./images/top-blue-logo.png" alt="logo" width="130px">
+        <i class="demo-icon icon-form_close"></i>
+    </div>
+    <ul class="smallScreenMenuList">
+        <li><a href="tour.html">ツアー</a></li>
+        <li><a href="price.html">価格</a></li>
+        <li><a href="enterprise.html">法人向け</a></li>
+        <li><a href="index.html">ログイン</a></li>
+        <li contact="footer-contact" class="smallScreenContact"><a href="javascript:void(0)">招待版を使う</a></li>
+    </ul>
+</div>
+<!--//小屏菜单 end-->
+
+<div class="body-container pc-show">
     <div class="topMenu">
-        <img src="./images/top-white-logo.png" alt="mintcode">
+        <a href="index.html"><img src="./images/top-white-logo.png" alt="mintcode"></a>
         <ul class="menuBody">
-            <li class="active"><a href="index.html">ツアー</a></li>
+            <li><a href="tour.html">ツアー</a></li>
             <li><a href="price.html">価格</a></li>
-            <li><a href="tour.html">事例</a></li>
             <li><a href="enterprise.html">法人向け</a></li>
-            <li><a href="index.html">Blog</a></li>
             <li><a href="index.html">ログイン</a></li>
+            <li><a id="menu-contact" contact="footer-contact">招待版を使う</a></li>
         </ul>
     </div>
 </div>
 
-
+<!--轮播器-->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -80,7 +114,6 @@
         <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
         <!--<span class="sr-only">Next</span>-->
     <!--</a>-->
-
 </div>
 
 
@@ -90,7 +123,9 @@
     <p>社内のチームコミュニケーションを円滑に</p>
 </div>
 
-<div class="sectionGroup">
+
+
+<div class="sectionGroup pc-show">
 
         <div class="articalArea clearfix" style=" box-shadow: -15px 5px 54px rgba(150,150,150,0.1) inset; padding-top: 10px;">
             <div class="half-group">
@@ -190,17 +225,110 @@
 
 </div>
 
-<div class="centerBelt blue">
+<!--*smallScreen sectionGroup begin-->
+<div class="smallScreenSectionGroup mobile-show">
+    <div class="articalArea-ss" style=" box-shadow: -15px 5px 54px rgba(150,150,150,0.1) inset;">
+        <img src="./images/chat-icon.png" alt="chat" class="icon-img">
+        <p class="header">ワークスタイル変革は <br> コミュニケーションから</p>
+        <img src="./images/artical1-pic.png" alt="artical-1" class="article-img">
+        <div class="depart-line"></div>
+        <ul class="content-list">
+            <li>チャットアプリ感覚で素早くチームと情報共有しリアルタイム</li>
+            <li>チャットで仕事が可能なので</li>
+            <li>今まで以上のチームワークを発揮します。</li>
+            <li>さらに「これは大事だ」と思った会話にすぐに星マークをつけ</li>
+            <li>ることができるので、重要な情報はもう忘れません。</li>
+        </ul>
+        <a href="javascript:void(0)" class="detail-btn">チャット機能を詳しくみる</a>
+    </div>
+
+    <div class="articalArea-ss">
+        <img src="./images/schedule-icon.png" alt="schedule" class="icon-img">
+        <p class="header">スケジューリングを <br> 根本から変える</p>
+        <img src="./images/artical2-pic.png" alt="artical-1" class="article-img">
+        <div class="depart-line"></div>
+        <ul class="content-list">
+            <li>チーム全体でのスケジュール管理から、個人のスケジュールの</li>
+            <li>管理まで幅広くサポートしています。</li>
+            <li>また会議予約機能で無駄なコミュニケーションロスを防ぐこと</li>
+            <li>ができます。</li>
+        </ul>
+        <a href="javascript:void(0)" class="detail-btn">スケジュール機能を詳しくみる</a>
+    </div>
+
+    <div class="articalArea-ss">
+        <img src="./images/workflow-icon.png" alt="schedule" class="icon-img">
+        <p class="header">書類申請を最短で <br> わかりやすくする</p>
+        <img src="./images/artical3-pic.png" alt="artical-1" class="article-img">
+        <div class="depart-line"></div>
+        <ul class="content-list">
+            <li>チーム全体でのスケジュール管理から、個人のスケジュール</li>
+            <li>の管理まで幅広くサポートしています。</li>
+            <li>また会議予約機能で無駄なコミュニケーションロスを防ぐこ</li>
+            <li>とができます。</li>
+        </ul>
+        <a href="javascript:void(0)" class="detail-btn">ワークフロー機能を詳しくみる</a>
+    </div>
+
+    <div class="articalArea-ss">
+        <img src="./images/task-icon.png" alt="task" class="icon-img">
+        <p class="header">スマートなタスク管理は <br> 人生を豊かにする</p>
+        <img src="./images/artical4-pic.png" alt="artical-1" class="article-img">
+        <div class="depart-line"></div>
+        <ul class="content-list">
+            <li>スケジュール管理で全チームの日程が把握できるため</li>
+            <li>、チーム全員のタスク進捗状況が確認でき、タスクご</li>
+            <li>とのディスカッションもできます。</li>
+        </ul>
+        <a href="javascript:void(0)" class="detail-btn">タスク機能を詳しくみる</a>
+    </div>
+
+    <div class="articalArea-ss">
+        <img src="./images/group-icon.png" alt="schedule" class="icon-img">
+        <p class="header">チームワークに必要な物が <br> すべてこれひとつに</p>
+        <img src="./images/artical5-pic.png" alt="artical-1" class="article-img">
+        <div class="depart-line"></div>
+        <ul class="content-list">
+            <li>スケジュール管理で全チームの日程が把握できるため、チーム</li>
+            <li>全員のタスク進捗状況が確認でき、タスクごとのディスカッシ</li>
+            <li>ョンもできます。</li>
+        </ul>
+        <a href="javascript:void(0)" class="detail-btn">ビデオチャット機能を詳しくみる</a>
+    </div>
+
+</div>
+
+
+<!--*smallScreen sectionGroup end-->
+
+<!--<div class="centerBelt blue">-->
+    <!--<img src="./images/foot-white-logo.png" alt="logo">-->
+    <!--<div class="content">-->
+        <!--<p>チームが最高のパフォーマンスを発揮できるための</p>-->
+        <!--<p>コミュニケーションツールを使ってみませんか？</p>-->
+    <!--</div>-->
+    <!--<a href="javascript:void(0)" class="detail-btn">チームをつくる</a>-->
+    <!--<p class="bottom-text">各種プランは、<span class="underline">料金プラン</span>からご確認ください。</p>-->
+<!--</div>-->
+
+<div class="centerBelt blue tour">
     <img src="./images/foot-white-logo.png" alt="logo">
     <div class="content">
         <p>チームが最高のパフォーマンスを発揮できるための</p>
         <p>コミュニケーションツールを使ってみませんか？</p>
     </div>
-    <a href="javascript:void(0)" class="detail-btn">チームをつくる</a>
+
+    <div class="text-center body-container">
+        <div class="tour-login-wrapper">
+            <span class="login-title">まずは無料招待版を登録しよう</span>
+            <input type="text" class="login-input" placeholder="例）mail@example.com" />
+            <a href="javascript:void(0)" class="login-submit-btn">招待版を使う</a>
+        </div>
+    </div>
     <p class="bottom-text">各種プランは、<span class="underline">料金プラン</span>からご確認ください。</p>
 </div>
 
-<div class="footer-section body-container clearfix">
+<div class="footer-section body-container clearfix pc-show">
     <div class="footerItem">
         <div class="head-wrapper">
             <span class="head blue">MENU</span>
@@ -252,9 +380,51 @@
     </div>
 </div>
 
+<div class="mobile-show mobile-footer-section">
+    <p>
+        <a href="javascript:void(0)">プライバシーポリシー</a> /<a href="javascript:void(0)">会員規約</a>  / <a href="javascript:void(0)">お問い合わせ</a>
+        <br>
+        / <a href="javascript:void(0)">ヘルプ</a> /<a href="javascript:void(0)">運営会社</a>  /<a href="javascript:void(0)">招待版を使う</a>
+    </p>
+</div>
+
 <div class="copyrightSection">
     <img src="./images/top-white-logo.png" alt="logo">
     <p>Copyright © 2016 WorkHub, Inc. All rights reserved.</p>
+</div>
+
+<!--联系我们-->
+<div class="popMask">
+    <div class="contact-page">
+        <div class="close-btn" id="close-contact">+</div>
+
+        <div class="contact-tag"><i class="demo-icon icon-form_open"></i>お問い合わせ</div>
+
+        <p class="contact-big-title">Contact us</p>
+        <p class="contact-subtitle">お問い合わせ</p>
+
+        <div class="contact-input-group">
+            <p class="title">貴社名</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group">
+            <p class="title">お名前</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group second">
+            <p class="title">メールアドレス</p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group second">
+            <p class="title">電話番号 <span class="error-msg">※電話番号の形式が正しくありません。</span></p>
+            <input type="text" placeholder="">
+        </div>
+        <div class="contact-input-group">
+            <p class="title">ご用件（必須）</p>
+            <textarea name="aa" id="" cols="30" rows="10"></textarea>
+        </div>
+        <a href="javascript:void(0)" class="confirm-btn">確認</a>
+    </div>
 </div>
 
 
@@ -262,4 +432,5 @@
 
 <script src="lib/jquery-2.1.1.min.js"></script>
 <script src="lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="js/mian.js"></script>
 </html>

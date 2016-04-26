@@ -9,6 +9,9 @@
   bottom: -40px;
   left: 50%;
   margin-left: -50px;
+  @media (max-width: 640px) {
+    bottom:-20px;
+  }
 }
 
 .underline-blue{
