@@ -98,11 +98,18 @@
   color: $light-base;
   display: table;
   min-height: 250px;
+  @media (max-width: 640px) {
+    border-radius: 0;
+    margin-top: 0;
+  }
   .mainTitle{
     color: $orange-base;
     text-shadow:2px 2px 0px #1b816b ;
     font-size: $fontsize-orange-title;
     font-family: "Hiragino Kaku Gothic Pro W6";
+    @media(max-width: 640px){
+      font-size: 30px;
+    }
   }
   .half-box{
     padding:20px 0;
@@ -110,23 +117,51 @@
     vertical-align: middle;
     box-sizing: border-box;
     width: 50%;
+    @media (max-width: 930px) {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
     &.left{
       text-align: center;
+      img {width: 370px;
+        @media(max-width: 640px){
+          width: 300px;
+        }
+      }
     }
   }
   .newTip{
     background-color: $orange-red;
     padding:2px 10px;
     border-radius: 30px;
+    &.pc{
+      @media (max-width: 930px) {
+        display: none;
+      }
+    }
+    &.mobile{
+      margin-right:15px;
+      @media(min-width:930px ){
+        display: none;
+      }
+    }
   }
   .subtitle-wrapper{
     margin: 15px 0;
+    @media(max-width:930px ){
+      display: inline-block;
+    }
   }
   .subtitle{
     font-size: 18px;
   }
   .content-text{
     margin-right: 52px;
+    @media (max-width: 930px) {
+      margin-right: 0;
+      padding: 0 30px;
+    }
   }
   .detail-btn{
     border-radius: $btn-radius-base;
@@ -153,9 +188,15 @@
   width: 100%;
   display: table;
   padding: 40px 0;
+  @media(max-width: 1024px){
+    display: block;
+  }
   .table-gap{
     width: 2%;
     display: table-cell;
+    @media(max-width: 1024px){
+      display: none;
+    }
   }
   .smallTip{
     font-size: $fontsize-small;
@@ -180,8 +221,17 @@
     display: table-cell;
     background-color: $light-base;
     box-sizing: border-box;
+    @media(max-width: 1024px){
+      display: block;
+      width: 320px;
+      margin: 0 auto 30px;
+      padding:30px;
+    }
     &:last-child{
       margin-right: 0;
+      @media(max-width: 1024px){
+        margin: 0 auto;
+      }
     }
     .headArea{
       height: 290px;
@@ -226,6 +276,10 @@
       .priceInfoList{
         li{
           margin-bottom:13px;
+          @media(max-width: 640px){
+            margin-bottom: 5px;
+            font-size: 14px;
+          }
         }
         .left{
           display: inline-block;
@@ -235,7 +289,7 @@
           float: left;
           text-align: right;
           img{
-            vertical-align: text-top;
+            vertical-align: 0;
           };
         }
         .right{

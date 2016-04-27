@@ -1,52 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eebdc7f-2926-462b-9b8e-9f9e11f33686" name="默认的" comment="change price page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/glyph-font/glyph.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/glyph-font/glyph.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/glyph-font/glyph.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/glyph-font/glyph.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/icon-font/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/icon-font/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/icon-font/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/images/green-note.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_animate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/_smallScreenPop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/css/glyph.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/glyph-font/glyph.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/font/icon-font/icomoon.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/enterprise-st-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/images/tour-gray-slide.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_commom.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_commom.scssc" />
+    <list default="true" id="2eebdc7f-2926-462b-9b8e-9f9e11f33686" name="默认的" comment="mobile enterprise and index">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_enterprise.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_enterprise.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_fontface.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_fontface.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_home.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_home.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_mixins.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_mixins.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_price.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_price.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_tour.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/_tour.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" afterPath="$PROJECT_DIR$/pages/css/.sass-cache/6601d7fc01ee4c59ccea4844298d01a2b11dd02e/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_commom.scss" afterPath="$PROJECT_DIR$/pages/css/_commom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_contact.scss" afterPath="$PROJECT_DIR$/pages/css/_contact.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_enterprise.scss" afterPath="$PROJECT_DIR$/pages/css/_enterprise.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_fontface.scss" afterPath="$PROJECT_DIR$/pages/css/_fontface.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_home.scss" afterPath="$PROJECT_DIR$/pages/css/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_mixins.scss" afterPath="$PROJECT_DIR$/pages/css/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_price.scss" afterPath="$PROJECT_DIR$/pages/css/_price.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/_tour.scss" afterPath="$PROJECT_DIR$/pages/css/_tour.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css" afterPath="$PROJECT_DIR$/pages/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.css.map" afterPath="$PROJECT_DIR$/pages/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/main.scss" afterPath="$PROJECT_DIR$/pages/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/enterprise.html" afterPath="$PROJECT_DIR$/pages/enterprise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/js/mian.js" afterPath="$PROJECT_DIR$/pages/js/mian.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/price.html" afterPath="$PROJECT_DIR$/pages/price.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tour.html" afterPath="$PROJECT_DIR$/pages/tour.html" />
     </list>
@@ -72,8 +39,8 @@
       <file leaf-file-name="enterprise.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.586207">
-              <caret line="276" column="78" selection-start-line="276" selection-start-column="65" selection-end-line="276" selection-end-column="78" />
+            <state vertical-scroll-proportion="-42.642857">
+              <caret line="362" column="0" selection-start-line="362" selection-start-column="0" selection-end-line="368" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,26 +52,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_enterprise.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_enterprise.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_enterprise.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48259494">
-              <caret line="346" column="7" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+            <state vertical-scroll-proportion="-16.0">
+              <caret line="331" column="27" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="price.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/price.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.107143">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.05229794">
+              <caret line="245" column="25" selection-start-line="245" selection-start-column="25" selection-end-line="245" selection-end-column="25" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,8 +81,8 @@
       <file leaf-file-name="_price.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.293104">
-              <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+            <state vertical-scroll-proportion="-3.6206896">
+              <caret line="213" column="12" selection-start-line="213" selection-start-column="12" selection-end-line="213" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -123,8 +91,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.362069">
-              <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="388" selection-end-column="6" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="316" column="38" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="38" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,18 +115,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.857143">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6468" column="20" selection-start-line="6468" selection-start-column="1" selection-end-line="6468" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_smallScreenPop.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/_smallScreenPop.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -167,14 +125,35 @@
       <file leaf-file-name="tour.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tour.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.285715">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state vertical-scroll-proportion="-9.357142">
+              <caret line="435" column="58" selection-start-line="435" selection-start-column="58" selection-end-line="435" selection-end-column="58" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tour.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/css/_tour.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.928572">
+              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/css/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.714286">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,18 +161,8 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6206896">
-              <caret line="290" column="15" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/_contact.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.5">
-              <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
+            <state vertical-scroll-proportion="2.3214285">
+              <caret line="239" column="7" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -252,22 +221,22 @@
         <option value="$PROJECT_DIR$/pages/css/_variables.scss" />
         <option value="$PROJECT_DIR$/pages/css/_reset.scss" />
         <option value="$PROJECT_DIR$/pages/css/_iconfont.css" />
-        <option value="$PROJECT_DIR$/pages/css/_tour.scss" />
         <option value="$PROJECT_DIR$/pages/js/mian.js" />
         <option value="$PROJECT_DIR$/pages/css/_fontface.scss" />
         <option value="$PROJECT_DIR$/pages/css/_commom.scss" />
         <option value="$PROJECT_DIR$/pages/css/main.scss" />
         <option value="$PROJECT_DIR$/pages/css/_mixins.scss" />
-        <option value="$PROJECT_DIR$/pages/css/_home.scss" />
         <option value="$PROJECT_DIR$/pages/css/_contact.scss" />
         <option value="$PROJECT_DIR$/pages/css/_smallScreenPop.scss" />
         <option value="$PROJECT_DIR$/pages/index.html" />
-        <option value="$PROJECT_DIR$/pages/price.html" />
-        <option value="$PROJECT_DIR$/pages/tour.html" />
         <option value="$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/pages/css/_price.scss" />
-        <option value="$PROJECT_DIR$/pages/enterprise.html" />
         <option value="$PROJECT_DIR$/pages/css/_enterprise.scss" />
+        <option value="$PROJECT_DIR$/pages/enterprise.html" />
+        <option value="$PROJECT_DIR$/pages/css/_home.scss" />
+        <option value="$PROJECT_DIR$/pages/css/_price.scss" />
+        <option value="$PROJECT_DIR$/pages/tour.html" />
+        <option value="$PROJECT_DIR$/pages/css/_tour.scss" />
+        <option value="$PROJECT_DIR$/pages/price.html" />
       </list>
     </option>
   </component>
@@ -315,8 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -471,6 +438,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,7 +551,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461232114945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mobile enterprise and index">
+      <created>1461673411082</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1461673411082</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -596,19 +571,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20969442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20910075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23726977" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25865802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26760563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22186147" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22210184" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -616,10 +589,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -664,7 +639,8 @@
     <MESSAGE value="添加样式和pages" />
     <MESSAGE value="price page add" />
     <MESSAGE value="change price page" />
-    <option name="LAST_COMMIT_MESSAGE" value="change price page" />
+    <MESSAGE value="mobile enterprise and index" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile enterprise and index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,9 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.892857">
           <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,22 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.964286">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_tour.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0172415">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -969,17 +924,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6206896">
-          <caret line="290" column="15" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
           <folding />
         </state>
@@ -987,58 +934,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/_smallScreenPop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/price.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.107143">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tour.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.285715">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lib/bootstrap-3.3.5-dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6468" column="20" selection-start-line="6468" selection-start-column="1" selection-end-line="6468" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
+    <entry file="file://$PROJECT_DIR$/pages/css/_enterprise.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.293104">
-          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+        <state vertical-scroll-proportion="-16.0">
+          <caret line="331" column="27" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3214285">
+          <caret line="239" column="7" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.362069">
-          <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="388" selection-end-column="6" />
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="316" column="38" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="38" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1059,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/enterprise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.586207">
-          <caret line="276" column="78" selection-start-line="276" selection-start-column="65" selection-end-line="276" selection-end-column="78" />
+        <state vertical-scroll-proportion="-42.642857">
+          <caret line="362" column="0" selection-start-line="362" selection-start-column="0" selection-end-line="368" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1071,11 +1000,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/_enterprise.scss">
+    <entry file="file://$PROJECT_DIR$/pages/css/_price.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48259494">
-          <caret line="346" column="7" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+        <state vertical-scroll-proportion="-3.6206896">
+          <caret line="213" column="12" selection-start-line="213" selection-start-column="12" selection-end-line="213" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.714286">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tour.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.357142">
+          <caret line="435" column="58" selection-start-line="435" selection-start-column="58" selection-end-line="435" selection-end-column="58" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/_tour.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05229794">
+          <caret line="245" column="25" selection-start-line="245" selection-start-column="25" selection-end-line="245" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

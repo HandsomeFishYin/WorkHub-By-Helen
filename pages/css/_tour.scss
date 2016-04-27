@@ -16,6 +16,9 @@
     &:hover,&.active{
        border-color: $blue-base ;
     }
+    @media(max-width: 1000px){
+      font-size: $fontsize-small;
+    }
   }
 }
 
@@ -33,13 +36,31 @@
   .left{
     width:50%;
     float: left;
+    @media(max-width: 1000px){
+      width: 100%;
+      text-align: center;
+    }
+    .mobile-img{
+      width: 100%;
+      @media(min-width: 1000px){
+        display: none;
+      }
+    }
     .title{
       font-size: 48px;
       position: relative;
       color: $blue-base;
+      @media(max-width: 1000px){
+        font-size: $fontsize-middle;
+        margin-bottom: 50px;
+      }
       >img{
         margin-right: 15px;
         width: 45px;
+        @media(max-width: 1000px){
+          display: block;
+          margin: 0 auto;
+        }
       }
       &:before{
         content: "";
@@ -47,13 +68,22 @@
         height: 4px;
         background-color: $blue-base;
         position: absolute;
-        bottom:0;
+        bottom:0;;
+        @media(max-width:1000px ){
+          margin-left:-25px;
+          bottom:-14px;
+        }
       }
     }
   }
 
   .tour-section-list{
     margin-top: 30px;
+    text-align: left;
+    display: inline-block;
+    @media(max-width: 640px){
+      padding:0 15px;
+    }
     li{
       position: relative;
       margin-bottom: 25px;
@@ -66,11 +96,16 @@
       .head{
         font-size: 18px;
         font-weight: bold;
+        @media(max-width: 640px){
+          font-size: $fontsize-base;
+          letter-spacing: -2px;
+        }
       }
       .content{
         font-size: 14px;
         display: inline-block;
-        text-indent: 35px;
+        //text-indent: 35px;
+        margin-left: 35px;
       }
     }
   }
@@ -78,10 +113,10 @@
   .right{
     width: 50%;
     float: left;
+    @media(max-width: 1000px){
+      display: none;
+    }
     .img-wrapper{
-      //width: 720px;
-      //height: 555px;
-      //background-color: $blue-base;
       margin-top: 20px;
       >img{
         margin-top: 50px;

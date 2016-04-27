@@ -153,10 +153,14 @@
     .content {
       font-size: 18px;
       letter-spacing: 5px;
+      @media(max-width: 640px){
+        font-size: $fontsize-small;
+        letter-spacing: 0;
+      }
     }
   }
   .tour-login-wrapper {
-    display: inline-block;
+    display: block;
     margin: 20px;
     //width: 100%;
     background-color: $light-base;
@@ -181,6 +185,7 @@
       border-radius: 8px;
       padding: 0 15px;
       width: calc(100% - 605px);
+      color: $gray-dark;
       @media(max-width: 1000px){
         width: 100%;
         margin: 15px 0 10px;
