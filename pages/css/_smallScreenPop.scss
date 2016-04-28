@@ -1,11 +1,12 @@
 //小屏的菜单栏
 .smallScreenNav{
-  height: 100%;
+  min-height: 100%;
   position: absolute;
   top:0;
   background-color: $light-base;
   width: 100%;
   z-index: 1040;
+
   .header{
     padding:15px 25px;
   }
@@ -19,6 +20,9 @@
     padding:0 25px;
     li{
       border-bottom: 1px solid #eeeeee;
+      &:last-child>a:before{
+        width: 0 !important;
+      }
     }
     li>a{
       line-height: 60px;
@@ -27,6 +31,17 @@
       font-size: $fontsize-footer-head;
       display: inline-block;
       width: 100%;
+      text-indent: 35px;
+      position: relative;
+      &:before{
+        content: "";
+        width: 15px;
+        height: 20px;
+        background-color: #cccccc;
+        position: absolute;
+        top: 20px;
+        left: 0;
+      }
     }
   }
   .smallScreenContact{
@@ -41,5 +56,43 @@
     a{
       color: $light-base !important;
     }
+  }
+
+  &.download{
+    background-color: $green-base;
+  }
+  &.contact{
+    background-color: $blue-base;
+  }
+
+  &.download, &.contact{
+    color: $light-base;
+    .icon-form_close{
+      color: $light-base;
+    }
+    .icon-form_open{
+      font-size: $fontsize-title-base;
+    }
+  }
+  .body{
+    padding:0 25px;
+  }
+  .downloadTitle{
+    font-size: $fontsize-large;
+    font-family: "OpenSans-ExtraBold";
+    letter-spacing: 2px;
+  }
+  .subTitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  input,textarea{
+    background: transparent;
+  }
+  .title{
+    color: $light-base;
+  }
+  .contact-input-group{
+    border-color: $light-base;
   }
 }
