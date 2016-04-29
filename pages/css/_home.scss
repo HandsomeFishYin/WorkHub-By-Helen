@@ -322,13 +322,28 @@
 .carousel-caption {
   .large-title {
     font-size: $fontsize-huge;
+    color: $light-base;
+    font-weight: bold;
+    margin-top: 5%;
+    @media(max-width: 1200px){
+      font-size: $fontsize-middle;
+    }
+    @media(max-width: 640px){
+      margin-top: 10%;
+      &.second{
+        margin-top: -10%;
+      }
+    }
     &.last {
       margin-bottom: 20px;
     }
   }
   .sub-title {
-    width: 570px;
     line-height: 2;
+    color: $light-base;
+    @media(max-width: 640px){
+      line-height: 1.5;
+    }
   }
   .detail-btn {
     margin-top: 35px;
@@ -337,11 +352,21 @@
     border: 2px solid $light-base;
     color: $light-base;
     line-height: 45px;
-    padding: 0 25px;
     transition: all .3s;
+    width: 300px;
+    text-align: center;
     &:hover {
       background-color: $light-base;
       color: $blue-base;
+    }
+  }
+  .blue-btn{
+    @extend  .detail-btn;
+    background-color: $blue-base;
+    border-color: $blue-base;
+    &:hover{
+      background-color: rgba($blue-base,0.8);
+      color: $light-base;
     }
   }
 }
@@ -410,10 +435,26 @@
   padding:25px 0;
   text-align: center;
   font-size: 14px;
+  background-color: #f5f6f8;
   a{
     color: $text-gray;
     &:hover{
       text-decoration: underline;
     }
+  }
+}
+
+//手机版的下载链接
+.mobile-download{
+  width: 300px;
+  margin: 30px auto;
+  .logo-img{
+    width: 130px;
+    margin-right: 10px;
+    float: left;
+  }
+  .header{
+    font-size: $fontsize-small;
+    color: $blue-base;
   }
 }

@@ -9,6 +9,7 @@
 
   .header{
     padding:15px 25px;
+    height: 75px;
   }
   .icon-form_close{
     float: right;
@@ -95,4 +96,17 @@
   .contact-input-group{
     border-color: $light-base;
   }
+  .confirm-btn{
+    background-color: $light-base;
+    color: $blue-base;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 50px;
+    width: 100%;
+    border-radius: $border-radius-base;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+  }
 }
+

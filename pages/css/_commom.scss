@@ -27,6 +27,12 @@
 .carouselTable{
   height: calc(100vw / 1920 *718);
   display: table;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  @media(max-width: 640px){
+    height: calc(100vw / 640 *875);
+  }
 }
 .globalTableCell{
   display: table-cell;
@@ -47,4 +53,11 @@
   @media(min-width: 640px){
     display: none !important;
   }
+}
+
+.text-green{
+  color: #4fd813;
+}
+.text-blue{
+  color: $blue-base !important;
 }

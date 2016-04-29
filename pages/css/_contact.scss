@@ -117,3 +117,51 @@
     width: 100%;
   }
 }
+
+.submit-msg-group{
+  .submit-msg-line{
+    margin-bottom: 25px;
+    color: #333333;
+    .title{
+      color: #999999;
+      margin-right: 15px;
+    }
+  }
+  .cancel-btn{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: $gray-light;
+    color: $light-base;
+    border-radius: $border-radius-base;
+    line-height: 48px;
+    font-size: 18px;
+    transition: all .3s;
+    margin-top: 10px;
+      &:hover{
+        background-color: rgba($gray-light ,0.9);
+      }
+    }
+  }
+
+
+.submit-result-success{
+  margin-top: 20%;
+  font-size: $fontsize-middle;
+  color: $blue-base;
+  text-align: center;
+  img{
+    margin-bottom: 5%;
+  }
+}
+
+.submit-result-fail{
+  @extend .submit-result-success;
+  color:#bec6d3 ;
+  .subtitle{
+    font-size: $fontsize-small;
+    text-decoration: underline;
+    margin-top: 15px;
+    color:#bec6d3 ;
+  }
+}
