@@ -5,7 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Content from './Content';
 import SearchContent from './SearchContent.js';
-import './main.css';
+
 main();
 
 function main() {
